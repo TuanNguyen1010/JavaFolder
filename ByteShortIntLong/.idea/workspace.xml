@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05eb98cc-967f-419f-a400-4f40e0b6a583" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YNB7yZ1L81LSnydQ49StGwqbmk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.Main" />
+      <module name="ByteShortIntLong" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05eb98cc-967f-419f-a400-4f40e0b6a583" name="Default Changelist" comment="" />
+      <created>1582773007232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582773007232</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1590957709594">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1590957709594" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590947441670" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1583159455055" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1590957709592">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1590957709592" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590947441669" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1583159455054" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1590957709592">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1590957709592" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590947441669" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1583159455054" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1590957709593">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1590957709593" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590947441670" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1583159455055" />
+    <state x="385" y="153" key="search.everywhere.popup" timestamp="1590946408658">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="385" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1590946408658" />
+  </component>
+</project>
