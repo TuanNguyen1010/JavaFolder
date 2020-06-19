@@ -20,5 +20,8 @@ public class Main {
         Danny.deposit(100);
         Danny.withdraw(1000);
         Danny.withdraw(28);
+
+        Bank John = new Bank( 80, "John", "John@email.com", 160800298);
+        System.out.println(John.getAccountNumber() + " name " + John.getCustomerName());
     }
 }
