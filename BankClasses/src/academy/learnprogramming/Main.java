@@ -23,5 +23,15 @@ public class Main {
 
         Bank John = new Bank( 80, "John", "John@email.com", 160800298);
         System.out.println(John.getAccountNumber() + " name " + John.getCustomerName());
+
+
+        VipCustomer Default = new VipCustomer();
+        System.out.println(Default.getName() + " has credit limit of £" + Default.getCreditLimit() + ", with registered email " + Default.getEmail());
+
+        VipCustomer Luke = new VipCustomer("Luke", " Luke@email.com");
+        System.out.println(Luke.getName() + " has credit limit of £" + Luke.getCreditLimit() + ", with registered email " + Luke.getEmail());
+
+        VipCustomer Sandy = new VipCustomer("Sandy", 1000, "Sandy@email.com");
+        System.out.println(Sandy.getName() + " has credit limit of £" + Sandy.getCreditLimit() + ", with registered email " + Sandy.getEmail());
     }
 }
