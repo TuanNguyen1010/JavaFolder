@@ -24,6 +24,8 @@ public class Main {
         Bank John = new Bank( 80, "John", "John@email.com", 160800298);
         System.out.println(John.getAccountNumber() + " name " + John.getCustomerName());
 
+        Bank Alex = new Bank(666978, 60, "Alex","Alex@email.com", 885726368);
+        System.out.println(Alex.getAccountNumber() + " name " + Alex.getCustomerName());
 
         VipCustomer Default = new VipCustomer();
         System.out.println(Default.getName() + " has credit limit of £" + Default.getCreditLimit() + ", with registered email " + Default.getEmail());

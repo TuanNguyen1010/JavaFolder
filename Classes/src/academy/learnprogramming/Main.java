@@ -9,5 +9,7 @@ public class Main {
 		System.out.println("Model is " + porsche.getModel());;
 		porsche.setModel("Boxster");
 		System.out.println("Model is " + porsche.getModel());
+		mercedes.setModel("A class");
+		System.out.println("Model is " + mercedes.getModel());
     }
 }
