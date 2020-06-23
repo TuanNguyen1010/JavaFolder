@@ -12,7 +12,6 @@ public class Main {
 
         PC thePC = new PC(theCase, theMonitor, theMotherboard);
 
-        thePC.getTheCase().powerButtonPress();
-        thePC.getMotherboard().loadProgram("Window 10");
+        thePC.powerUp();
     }
 }
