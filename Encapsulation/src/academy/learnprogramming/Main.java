@@ -6,7 +6,8 @@ public class Main {
 	Printer dell = new Printer(40, true);
 
 	dell.fillPrinter(50);
-	dell.printPage();
+	dell.printPage(7);
 	dell.fillPrinter(100);
+	dell.checkCount();
     }
 }
