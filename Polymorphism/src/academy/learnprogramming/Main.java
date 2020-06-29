@@ -18,7 +18,7 @@ class Car {
     }
 
     public void startEngine() {
-        System.out.println("engine has started");
+        System.out.println("Car engine has started");
     }
 
     public void accelerate() {
@@ -97,6 +97,12 @@ class Lexus extends Car{
 public class Main {
 
     public static void main(String[] args) {
+
+        Car newCar = new Car("Basic car", 2);
+        System.out.println(newCar.getName());
+        newCar.startEngine();
+
+        System.out.println("Loop over random cars : ");
         for(int i = 1; i < 5; i ++ ) {
             Car myCar = randomCar();
             System.out.println("You have chosen " + myCar.getName() +
