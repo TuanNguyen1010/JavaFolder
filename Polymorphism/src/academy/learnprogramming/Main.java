@@ -1,7 +1,7 @@
 package academy.learnprogramming;
 
 class Car {
-    public String name;
+    private String name;
     private int cylinder;
     private boolean isEngine;
     private int wheels;
@@ -11,6 +11,10 @@ class Car {
         this.cylinder = cylinder;
         this.isEngine = true;
         this.wheels = 4;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void startEngine() {
@@ -26,9 +30,10 @@ class Car {
     }
 }
 
-class Guilia extends Car{
-    public Guilia() {
-        super("Gulia",  6);
+class Alfa extends Car{
+
+    public Alfa(String name, int cylinder) {
+        super(name, cylinder);
     }
 
     @Override
@@ -48,44 +53,44 @@ class Guilia extends Car{
 }
 
 class Beamer extends Car{
-    public Beamer() {
-        super("3-Series", 4);
+    public Beamer(String name, int cylinder) {
+        super(name, cylinder);
     }
 
     @Override
     public void startEngine() {
-        System.out.println("3-Series is starting");
+        System.out.println("Beamer is starting");
     }
 
     @Override
     public void accelerate() {
-        System.out.println("3-Series is accelerating");
+        System.out.println("Beamer is accelerating");
     }
 
     @Override
     public void brake() {
-        System.out.println("3-Series is braking");
+        System.out.println("Beamer is braking");
     }
 }
 
 class Lexus extends Car{
-    public Lexus() {
-        super("RX450", 4);
+    public Lexus(String name, int cylinder) {
+        super(name, cylinder);
     }
 
     @Override
     public void startEngine() {
-        System.out.println("RX450 is starting");
+        System.out.println("Lexus is starting");
     }
 
     @Override
     public void accelerate() {
-        System.out.println("RX450 is accelerating");
+        System.out.println("Lexus is accelerating");
     }
 
     @Override
     public void brake() {
-        System.out.println("RX450 is braking");
+        System.out.println("Lexus is braking");
     }
 }
 
@@ -94,7 +99,7 @@ public class Main {
     public static void main(String[] args) {
         for(int i = 1; i < 5; i ++ ) {
             Car myCar = randomCar();
-            System.out.println("You have chosen " + myCar.name +
+            System.out.println("You have chosen " + myCar.getName() +
                     ". You turn on the ignition and ");
             myCar.startEngine();
         }
@@ -105,11 +110,11 @@ public class Main {
         System.out.println("Random number  = " + randomNumber);
         switch(randomNumber) {
             case 1:
-                return new Guilia();
+                return new Alfa("Gulia", 6);
             case 2:
-                return new Beamer();
+                return new Beamer("3-Series", 4);
             case 3:
-                return new Lexus();
+                return new Lexus("LX450", 4);
         }
         return null;
     }
