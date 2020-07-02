@@ -14,8 +14,10 @@ public class Health_burger extends Hamburger {
         super.addAddition(extra);
         if(addition_5 == null){
             addition_5 = extra;
+            System.out.println(extra + " has been added");
         } else if (addition_6 == null) {
             addition_6 = extra;
+            System.out.println(extra + " has been added");
         }
     }
 
