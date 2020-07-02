@@ -1,6 +1,6 @@
 package academy.learnprogramming;
 
-public class Health_burger extends Basic_burger {
+public class Health_burger extends Hamburger {
 
     private String addition_5;
     private String addition_6;
